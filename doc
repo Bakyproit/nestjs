@@ -11,3 +11,4 @@
 // Module - Controller - Service (Product - Categories)
 //Module  :  Module trong NestJS là một class được gắn với một decorator @Module(). Decorator này cung cấp metadata cho Nest sử dụng để tổ chức cấu trúc ứng dụng. Một module có thể bao gồm các thành phần như providers, controllers, imports và exports. Module có nhiệm vụ đóng gói những logic liên quan của các chức năng cần triển khai đến client một cách độc lập
 //Controller : Trong NestJS, một controller là một loại thành phần của ứng dụng được sử dụng để xử lý các yêu cầu (requests) và trả về các phản hồi (responses). Nó có chức năng nhận các yêu cầu từ client thông qua các route công khai (public routes) và định nghĩa các hành động và xử lý logic tương ứng để xử lý yêu cầu đó. Sau đó, nó sẽ trả về các phản hồi (responses) cho client thông qua các HTTP response codes (status codes) và data
+// Controller : nhận các request client về server và response
